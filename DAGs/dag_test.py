@@ -6,7 +6,7 @@ from airflow.operators.python_operator import PythonOperator
 from airflow.operators.bash_operator import BashOperator
 
 default_args = {
-    'owner': 'javier_lopez',
+    'owner': 'ivanfdz',
     'start_date': datetime(2020, 5, 20, 11, 0, 0)
 }
 
